@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="post-article post-view-mode">
+  <section class="post-content">
+    <header class="post-header">
+      <div class="post-meta clearfix wf">
+        <a class="post-author">{{ page.author }}</a>
+      </div>
+      <h1 class="post-title wf">{{ page.title }}</h1>
+    </header>
+    <div class="post-field body">
+      {{ content }}
+    </div>
+    <div class="actions-and-date">
+      <div class="btn-set">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-via="memecoworking">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+      <time class="post-date wf" datetime='{{ page.date | date: "%Y-%m-%d" }}'>{{ page.date | date: "%B %d, %Y" }}</time>
+    </div>
+    <footer class="post-footer">
+      <div class="post-author-card">
+        <a class="post-author-image"><img src="{{ page.author_image }}"></a>
+        <div class="post-author-info">
+          <a class="post-author-name">{{ page.author }}</a>
+        </div>
+      </div>
+    </footer>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'memecoworking'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </section>
+</article>
