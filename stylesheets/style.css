@@ -224,12 +224,6 @@ html,body,.container,.container-surface,.screen-content {
     top:10px;
     left:20px
   }
-  .site-nav-branding {
-    filter:alpha(opacity=20);
-    -khtml-opacity:.2;
-    -moz-opacity:.2;
-    opacity:.2
-  }
 }
 .template-flex-article {
   background:#f2f2f0
@@ -733,7 +727,7 @@ html,body,.container,.container-surface,.screen-content {
     max-width:100%
   }
   .template-flex-article .post-content {
-    padding:100px 20px 50px
+    padding:110px 20px 50px
   }
   .template-flex-article .post-content h1 {
     font-size:36px;
@@ -810,6 +804,7 @@ ul.factory {
   display: block;
   list-style-type: disc;
   margin: 1em 0;
+  margin-bottom: 27px;
   padding-left: 40px;
 }
 ul.factory li {
@@ -827,7 +822,7 @@ ul.factory li {
   width:120px;
   height:120px;
   text-align:center;
-  margin-right:53px;
+  margin-right:35px;
 }
 .price.last {
   margin-right:0;
