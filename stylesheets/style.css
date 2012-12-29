@@ -586,7 +586,7 @@ ul.factory li {
 }
 @media screen and (min-width:0) and (max-width:825px) {
   .price {
-    margin:10px 10px;
+    margin:10px 8px;
   }
 }
 iframe.map {
