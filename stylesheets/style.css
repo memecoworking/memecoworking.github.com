@@ -237,7 +237,7 @@ html,body,.container,.container-surface,.screen-content {
 .site-menu li a:link, .site-menu li a:visited, .site-menu li a:hover {
   color: #333332 !important;
   font-weight: bold;
-  padding-bottom: 12px;
+  padding-bottom: 6px;
   text-decoration: none !important;
 }
 .site-menu li a:hover, li a.current{
@@ -246,6 +246,10 @@ html,body,.container,.container-surface,.screen-content {
 .post-field { 
   clear: both; 
   padding-top: 20px;
+}
+.post-field ul {
+  padding-left: 24px;
+  list-style-type: circle;
 }
 .image-canvas {
   position: relative;
@@ -260,11 +264,18 @@ html,body,.container,.container-surface,.screen-content {
   width: 100%;
   background: rgba(0,0,0,0.5);
   line-height: 18px;
-
+  bottom:9px;
+}
+.status {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+.green {
+  background: url('../images/status_green.png');
 }
 .image-info h4{
   text-transform: uppercase;
-  font-size: 60%;
   color: #FFFFFF;
 }
 .image-info span{
