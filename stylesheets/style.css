@@ -240,7 +240,7 @@ ul.site-menu{
   clear: both; 
   padding-top: 20px;
 }
-.post-field ul {
+.post-field ul.corsi {
   padding-left: 24px;
   list-style-type: circle;
 }
