@@ -348,7 +348,7 @@ ul.site-menu{
   font-weight:700;
   font-size:47px;
   line-height:51px;
-  margin-bottom:17px
+  margin: 42px 0 12px 0;
 }
 .template-flex-article .post-content .body h2 {
   /*font-family:"Lato","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;*/
