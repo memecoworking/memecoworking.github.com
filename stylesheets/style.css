@@ -227,13 +227,14 @@ html,body,.container,.container-surface,.screen-content {
 ul.site-menu{
   padding: 24px 0;
 }
-.site-menu li a:link, .site-menu li a:visited, .site-menu li a:hover {
+.site-menu li a:link, .site-menu li a:visited, .site-menu li a:hover,
+ul.breadcrumbs li a:link, ul.breadcrumbs li a:visited, ul.breadcrumbs li a:hover {
   color: #333332 !important;
   font-weight: bold;
   padding-bottom: 6px;
   text-decoration: none !important;
 }
-.site-menu li a:hover, li a.current{
+.site-menu li a:hover, li a.current, ul.breadcrumbs li a:hover{
   border-bottom: 2px solid;
 }
 .post-field { 
@@ -247,6 +248,7 @@ ul.site-menu{
 .image-canvas {
   position: relative;
   overflow: hidden;
+  min-height: 288px;
 }
 .image-canvas img {
   width: 100%
@@ -255,9 +257,9 @@ ul.site-menu{
   position: absolute;
   padding: 15px;
   width: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.7);
   line-height: 18px;
-  bottom:9px;
+  bottom: 0;
 }
 .status {
   width: 60px;
@@ -288,6 +290,9 @@ ul.site-menu{
   ul.site-menu{
     float: left;
     padding: 6px 0;
+  }
+  ul.breadcrumbs {
+    padding: 44px 0 0 0;
   }
 }
 .template-flex-article {
